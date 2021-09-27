@@ -1,10 +1,12 @@
 import "package:flutter/material.dart";
-
  
 void main() {
   runApp(MaterialApp(
-    home: Scaffold(
+    home:
+     Scaffold(
       appBar: AppBar(
+        
+      
         leading: Icon(Icons.account_circle_rounded),
        leadingWidth: 100,
         title: Text("APPBAR EXAMPLE"),
@@ -19,6 +21,7 @@ void main() {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(360)),
         elevation: 15,
         backgroundColor: Colors.deepPurple,
+        
       ), //AppBar
       body: const Center(
         child: Text(
